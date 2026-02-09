@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | CS Student</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Dev<span class="accent">.Portfolio</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">MPNair</h1>
+                <h2 class="title">I am a <span class="typing-text"></span></h2>
+                <p class="description">
+                    Computer Science & Engineering Student passionate about building aesthetic and functional web
+                    experiences.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-card floating">
+                    <div class="card-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="card-body">
+                        <code>
+                            <span class="keyword">class</span> <span class="class-name">Developer</span> {<br>
+                            &nbsp;&nbsp;<span class="keyword">constructor</span>() {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="this">this</span>.name = <span class="string">'MPNair'</span>;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="this">this</span>.role = <span class="string">'CS Student'</span>;<br>
+                            &nbsp;&nbsp;}<br>
+                            }
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="accent">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am currently pursuing my degree in Computer Science and Engineering. My journey in tech
+                        started with a curiosity for how things work, which led me to the world of coding.
+                    </p>
+                    <p>
+                        I specialize in front-end development but have a strong foundation in backend technologies. I
+                        love solving complex problems and designing interfaces that are intuitive and visually
+                        appealing.
+                    </p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years Coding</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-container">
+                    <h3>Tech Stack</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card"><i class="fab fa-html5"></i> HTML5</div>
+                        <div class="skill-card"><i class="fab fa-css3-alt"></i> CSS3</div>
+                        <div class="skill-card"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="skill-card"><i class="fab fa-react"></i> React</div>
+                        <div class="skill-card"><i class="fab fa-python"></i> Python</div>
+                        <div class="skill-card"><i class="fas fa-database"></i> SQL</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-img"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Task Manager</h3>
+                        <p>A smart task management app using machine learning to prioritize daily activities.</p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>React</span>
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i> Code</a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: Updated Content -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-img"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>The Digital Maintenance Log</h3>
+                        <p>For Gadgets. A mobile application designed to solve the problem of unorganized device
+                            management.</p>
+                        <div class="tags">
+                            <span>Mobile App</span>
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i> Code</a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-img"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio v1</h3>
+                        <p>My previous portfolio website showcasing early web development skills.</p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i> Code</a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@mpnair.dev</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>New York, USA</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 MPNair. Built with <i class="fas fa-heart accent"></i> and Code.</p>
+        </div>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+
+</html>
