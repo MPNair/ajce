@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Typing Effect
     const typingText = document.querySelector('.typing-text');
     if (typingText) {
-        const roles = ['CS Student', 'Web Developer', 'Tech Enthusiast', 'UI/UX Designer'];
+        const roles = ['Tech Enthusiast', 'Web Developer', 'UI/UX Designer', 'Problem Solver', 'CSE Student'];
         let roleIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
